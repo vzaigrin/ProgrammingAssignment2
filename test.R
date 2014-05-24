@@ -1,0 +1,7 @@
+source("cachematrix.R")
+m1<-makeCacheMatrix(matrix(c(7,2,1,0,3,-1,-3,4,-2),nrow=3,ncol=3,byrow=TRUE))
+m2<-makeCacheMatrix(matrix(c(-2,3,9,8,-11,-34,-5,7,21),nrow=3,ncol=3,byrow=TRUE))
+cacheSolve(m1)
+cacheSolve(m2)
+cacheSolve(m1)
+cacheSolve(m2)
